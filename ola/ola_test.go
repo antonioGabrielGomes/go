@@ -28,6 +28,18 @@ func TestOla(t *testing.T) {
 		verificaMensagemCorreta(t, resultado, esperado)
 	})
 
+	t.Run("em frances", func(t *testing.T) {
+		resultado := Ola("Elodie", "frances")
+		esperado := "Bonjour, Elodie"
+		verificaMensagemCorreta(t, resultado, esperado)
+	})
+
+	t.Run("em chines", func(t *testing.T) {
+		resultado := Ola("Gabriel", "chines")
+		esperado := "Nǐ hǎo, Gabriel"
+		verificaMensagemCorreta(t, resultado, esperado)
+	})
+
 	t.Run("idioma desconhecido retorna mensagem com prefixo em portugues", func(t *testing.T) {
 		resultado := Ola("Elodie", "ingles")
 		esperado := "Olá, Elodie"
@@ -44,19 +56,31 @@ func TestSelecionarPrefixo(t *testing.T) {
 	}
 
 	t.Run("retorna profixo em portugues", func(t *testing.T) {
-		resultado := SelecionarPrefixo("portugues")
+		resultado := selecionarPrefixo("portugues")
 		esperado := "Olá, "
 		verificarPrefixoCorreto(t, resultado, esperado)
 	})
 
 	t.Run("retorna prefixo em espanhol", func(t *testing.T) {
-		resultado := SelecionarPrefixo("espanhol")
+		resultado := selecionarPrefixo("espanhol")
 		esperado := "Hola, "
 		verificarPrefixoCorreto(t, resultado, esperado)
 	})
 
+	t.Run("retorna prefixo em frances", func(t *testing.T) {
+		resultado := selecionarPrefixo("frances")
+		esperado := "Bonjour, "
+		verificarPrefixoCorreto(t, resultado, esperado)
+	})
+
+	t.Run("retorna prefixo em chines", func(t *testing.T) {
+		resultado := selecionarPrefixo("chines")
+		esperado := "Nǐ hǎo, "
+		verificarPrefixoCorreto(t, resultado, esperado)
+	})
+
 	t.Run("retorna prefixo com idioma desconhecido retorna em portugues", func(t *testing.T) {
-		resultado := SelecionarPrefixo("ingles")
+		resultado := selecionarPrefixo("ingles")
 		esperado := "Olá, "
 		verificarPrefixoCorreto(t, resultado, esperado)
 	})
