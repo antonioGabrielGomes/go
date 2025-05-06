@@ -2,13 +2,15 @@ package main
 
 import "fmt"
 
+const espanhol = "espanhol"
 const prefixoOlaPortugues = "Olá, "
+const prefixoOlaEspanhol = "Hola, "
 
 func SelecionarPrefixo(idioma string) string {
 	if idioma != "portugues" {
 		switch idioma {
-		case "espanhol":
-			return "Hola, "
+		case espanhol:
+			return prefixoOlaEspanhol
 		default:
 			return prefixoOlaPortugues
 		}
