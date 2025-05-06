@@ -36,8 +36,9 @@ func Ola(nome string, idioma string) string {
 }
 
 func main() {
-	fmt.Println(Ola("Gabriel", portugues))
-	fmt.Println(Ola("Gabriel", espanhol))
-	fmt.Println(Ola("Gabriel", "ingles"))
-	fmt.Println(Ola("Gabriel", frances))
+	fmt.Println(Ola("Git", portugues))
+	fmt.Println(Ola("Localhost", espanhol))
+	fmt.Println(Ola("404", "ingles"))
+	fmt.Println(Ola("CopyPast", frances))
+	fmt.Println(Ola("Gabriel", chines))
 }
