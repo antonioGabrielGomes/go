@@ -8,6 +8,8 @@
 - [x] inteiros
 - [x] arrays e slices
 - [ ] estrutura, métodos e interfaces
+- [ ] ponteiros e erros
+- [ ] maps
 
 ## comandos
 * go test # rodar os testes
@@ -18,3 +20,7 @@
 
 ## exercims
 - [ ] https://exercism.org/tracks/go/exercises/need-for-speed
+
+
+## referencias
+-  https://larien.gitbook.io/aprenda-go-com-testes
