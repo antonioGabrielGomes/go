@@ -7,7 +7,7 @@
 - [x] olá, Mundo
 - [x] inteiros
 - [x] arrays e slices
-- [ ] estrutura, métodos e interfaces
+- [x] estrutura, métodos e interfaces
 - [ ] ponteiros e erros
 - [ ] maps
 
@@ -19,7 +19,8 @@
 * arrays-e-slices [https://larien.gitbook.io/aprenda-go-com-testes/primeiros-passos-com-go/arrays-e-slices ]
 
 ## exercims
-- [ ] https://exercism.org/tracks/go/exercises/need-for-speed
+- [x] https://exercism.org/tracks/go/exercises/need-for-speed
+- [ ] https://exercism.org/tracks/go/exercises/card-tricks
 
 
 ## referencias
