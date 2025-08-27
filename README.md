@@ -17,6 +17,7 @@
 
 ## dicas
 * arrays-e-slices [https://larien.gitbook.io/aprenda-go-com-testes/primeiros-passos-com-go/arrays-e-slices ]
+* pointers [https://larien.gitbook.io/aprenda-go-com-testes/primeiros-passos-com-go/ponteiros-e-erros]
 
 ## exercims
 - [x] https://exercism.org/tracks/go/exercises/need-for-speed
