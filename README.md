@@ -8,12 +8,14 @@
 - [x] inteiros
 - [x] arrays e slices
 - [x] estrutura, métodos e interfaces
-- [ ] ponteiros e erros
+- [x] ponteiros e erros
 - [ ] maps
 
 ## comandos
 * go test # rodar os testes
 * go test -bech=. # benchmarks dos testes
+* go get -u github.com/kisielk/errcheck
+* errcheck # verificar erros nos testes
 
 ## dicas
 * arrays-e-slices [https://larien.gitbook.io/aprenda-go-com-testes/primeiros-passos-com-go/arrays-e-slices ]
@@ -21,8 +23,9 @@
 
 ## exercims
 - [x] https://exercism.org/tracks/go/exercises/need-for-speed
-- [ ] https://exercism.org/tracks/go/exercises/card-tricks
-
+- [x] https://exercism.org/tracks/go/exercises/card-tricks
+- [ ] https://exercism.org/tracks/go/exercises/animal-magic
+ 
 
 ## referencias
 -  https://larien.gitbook.io/aprenda-go-com-testes
